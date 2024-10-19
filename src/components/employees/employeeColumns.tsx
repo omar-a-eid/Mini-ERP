@@ -8,7 +8,7 @@ export const employeeColumns = (handleDelete: (id: number) => void) => [
     header: 'Employee',
     key: 'name' as keyof Employee,
     render:(row: Employee) => (
-      <td>
+      <td key={row.id + 'a'}>
         <a href={`/employee/${row.id}`} style={{display: "flex", gap: "10px", alignItems: "center"}}>
           <div style={{background: `url(${row.url})`, backgroundSize: "cover", backgroundPosition:"center", width: "28px", height: "28px", borderRadius: "50%"}}></div>
           <div>{row.name}</div>
@@ -24,7 +24,7 @@ export const employeeColumns = (handleDelete: (id: number) => void) => [
     header: 'Active', 
     key: 'active' as keyof Employee,
     render: (row: Employee) => (
-      <td>
+      <td key={row.id + 'b'}>
         <img src={row.active ? Active : Inactive} width={34} height={24}/>
       </td>
     )
