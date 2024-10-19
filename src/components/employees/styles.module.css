@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 75vh;
+  padding: 15px;
+  padding-left: 0;
+  border: 0.75px solid #F8F9FA;
+  border-radius: 15px;
+  box-shadow: 0px 3px 15px 0px #EEEEEE80;
+}
+
+.searchAddContaienr {
+  display: flex;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+  border: 1.69px solid #E2E2E2;
+  padding: 0 30px;
+  border-radius: 50px;
+}
+
+.searchContainer input {
+  border: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+
+}

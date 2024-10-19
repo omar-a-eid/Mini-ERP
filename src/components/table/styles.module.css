@@ -1,0 +1,44 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  overflow: scroll;
+}
+
+.table td, .table th {
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+  padding: 18px 30px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.paginationContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: #D3D3D3;
+  border: 1.5px solid #D3D3D3;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.activePage {
+  border: 1.5px solid #026980!important;
+  color: #026980!important;
+}
