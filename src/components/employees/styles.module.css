@@ -1,3 +1,12 @@
+.header {
+  margin: 25px 0 10px 0;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36.4px;
+  text-align: left;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -7,7 +16,7 @@
   padding-left: 0;
   border: 0.75px solid #F8F9FA;
   border-radius: 15px;
-  box-shadow: 0px 3px 15px 0px #EEEEEE80;
+  box-shadow: 0px 3px 15px 0px #b8b7b780;
 }
 
 .searchAddContaienr {

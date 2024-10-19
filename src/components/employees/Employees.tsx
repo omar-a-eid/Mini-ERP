@@ -27,9 +27,9 @@ export default function Employees() {
   const columns = employeeColumns(handleDelete);
 
   return (
-    <div style={{marginLeft: "20px"}}>
-      <div>
-        <h1>Employees</h1>
+    <div style={{marginLeft: "30px"}}>
+      <div className={styles.header}>
+        <p>Employees</p>
       </div>
 
       <div className={styles.main}>

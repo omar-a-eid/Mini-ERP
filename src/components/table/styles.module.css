@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .table {
@@ -16,7 +16,13 @@
 .table td, .table th {
   border-top: 1px solid #E2E2E2;
   border-bottom: 1px solid #E2E2E2;
-  padding: 12px 30px;
+  padding: 15px 0;
+  padding-left: 30px;
+}
+.table td {
+  padding: 12px;
+  padding-left: 30px;
+
 }
 
 .paginationContainer {
@@ -28,6 +34,7 @@
 
 .paginationContainer button {
   display: flex;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   width: 40px;
