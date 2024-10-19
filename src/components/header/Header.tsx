@@ -7,7 +7,7 @@ import styles from "./styles.module.css";
 export default function Header() {
 
   return (
-    <head className={styles.headerContainer}>
+    <div className={styles.headerContainer}>
       <div className={styles.headerWrapper}>
         <div className={styles.infoContainer}>
           {/* Avatar */}
@@ -26,7 +26,7 @@ export default function Header() {
         <Icon  image={Envelope} notificationNumber="3" alt="Envelope"/>
 
       </div>
-    </head>
+    </div>
   )
   
 }
