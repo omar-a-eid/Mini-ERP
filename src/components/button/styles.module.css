@@ -1,0 +1,24 @@
+.blueBtn, .grayBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  height: 48px;
+  border-radius: 50px;
+  gap: 5px;
+}
+
+.blueBtn {
+  color: white;
+  background-color: #026980;
+}
+
+.grayBtn {
+  color: #747474;
+  border: 1px solid #747474
+}
+

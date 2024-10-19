@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import './App.css'
+import Employees from './components/employees/Employees'
 import MainLayout from './layouts/MainLayout'
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<MainLayout />}>
-              <Route path='/' />
+              <Route index element={< Employees/>} />
               <Route path='/employee/:id'/>
           </Route>
         </Routes>
