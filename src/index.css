@@ -1,0 +1,10 @@
+*, html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+  background-color: #fafbfc;
+}

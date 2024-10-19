@@ -1,0 +1,19 @@
+.container {
+  background: #026980;
+  width: 246px;
+  height: 100vh;
+  padding-top: 67.14px;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.linksContainer {
+  margin-top: 55.57px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
