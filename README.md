@@ -1,6 +1,6 @@
 # React + TypeScript + Vite Project
 
-This project provides a minimal setup to get React working with TypeScript in Vite, along with Hot Module Replacement (HMR) and some ESLint rules.
+This project provides a minimal setup to get React working with TypeScript in Vite.
 
 ## Existing Data
 
