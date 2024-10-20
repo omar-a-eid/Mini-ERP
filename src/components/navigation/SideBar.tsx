@@ -17,9 +17,9 @@ export default function SideBar() {
         </div>
 
         <div className={styles.linksContainer}>
-          <NormalLink image={PieChart} path="dashboard"  text="Dashboard" alt="pie chart"/>
-          <NormalLink image={Team} path="teams"  text="Teams" alt="team"/>
-          <NormalLink image={Employee} path="employees"  text="Employees" alt="A person" active={true}/>
+          <NormalLink image={PieChart} path="/dashboard"  text="Dashboard" alt="pie chart"/>
+          <NormalLink image={Team} path="/teams"  text="Teams" alt="team"/>
+          <NormalLink image={Employee} path="/employees"  text="Employees" alt="A person" active={true}/>
           <DropdownLink image={Settings} downArrow={DownArrow} text="Settings" alt="settings"/>
         </div>
 

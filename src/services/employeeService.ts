@@ -28,3 +28,8 @@ export const addEmployee = async (newEmployee: Employee) => {
   employees.push(newEmployee);
   saveToLocalStorage(EMPLOYEES_KEY, employees);
 };
+
+export const getEmployeeById = async (id: number): Promise<Employee | null> => {
+  const employees = getFromLocalStorage(EMPLOYEES_KEY) || [];
+  return employees.find((employee: Employee) => employee.id === id) || null;
+};
