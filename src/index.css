@@ -7,4 +7,10 @@
 
 body, html {
   background-color: #fafbfc;
+  height: 100%;
+  overflow: scroll;
+}
+
+#root {
+  height: 100%;
 }

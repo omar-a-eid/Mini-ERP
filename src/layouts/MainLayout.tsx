@@ -1,12 +1,12 @@
+import { Outlet } from "react-router-dom";
 import Header from "../components/header/Header";
 import SideBar from "../components/navigation/SideBar";
-import { Outlet } from "react-router-dom";
 export default function MainLayout() {
   return (
-    <div style={{display: "flex"}}>
+    <div style={{display: "flex", height: "100%"}}>
       <SideBar />
 
-      <div style={{flex: 1}}>
+      <div style={{width: "calc(100% - 255px)"}}>
         <Header />
         <div>
           <Outlet />
