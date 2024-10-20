@@ -1,0 +1,59 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.astrik::after {
+  content: "*";
+  color: #026980;
+}
+
+.input {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #E8E8E8;
+  border-radius: 57px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.option {
+  appearance: none; /* remove default appearance set by the browser */
+  outline: none; /* remove the outline shown on focus */
+  cursor: pointer; /* change the mouse cursor icon */
+
+  color: navy;  /* text color */
+  background-color: green;
+  border: 2px solid blue;
+
+  border-radius: 5px;  /* round the border corners */
+  padding: 5px 10px;
+  width: 200px;
+  height: 40px;
+  box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.8);
+
+  font-family: serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.option:hover {
+  background-color: #026980;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}

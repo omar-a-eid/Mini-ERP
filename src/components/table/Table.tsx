@@ -64,7 +64,6 @@ export default function Table<T extends object>({columns, data, rowsPerPage = 10
           <img src={LeftAngle} width={22} height={22} />
         </button>
 
-        {/* Render page numbers dynamically */}
         {getPageNumbers().map((pageNumber) => (
           <button
             key={pageNumber}

@@ -48,3 +48,70 @@
 .searchContainer input:focus {
   outline: none;
 }
+
+.addImageText {
+  margin-bottom: 10px;
+}
+
+.addImageContainer {
+  border: 8px solid transparent;
+  border-image: url("../../assets/images/dashed.png") 30 round;
+  border-image-width: 25px;
+  height: 151px;
+}
+
+.addImageBtn {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addImageBtn img {
+  margin-bottom: 10px;
+}
+
+.imagePreviewContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+
+.imagePreviewContainer > img {
+  width: 170px;
+  height: 100%;
+  border-radius: 11px;
+}
+
+.imageName {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;  
+}
+
+.controlersContainer, .controlersContainer > div {
+  display: flex;
+  gap: 3px;
+}
+
+.controlersContainer > div {
+  cursor: pointer;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #747474;
+}
+
+.controlersContainer {
+  gap: 20px;
+}
+
+.dateActiveContainer {
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+}

@@ -1,0 +1,73 @@
+.container {  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 628px;
+  background-color: #FAFBFC;
+  z-index: 9999;
+  border-radius: 15px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 30px  15px 35px;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.headerContainer p {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;  
+}
+
+.headerContainer button {
+  cursor: pointer;
+  font-size: 26px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.stepsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 17px 0;
+}
+
+.stepsContainer > div:first-of-type {
+  position: relative;
+  right: -22px;
+}
+
+.active {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000033; 
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.dashedLine {
+  position: relative;
+  width: 108px;
+  height: 1px;
+  top: 13px;
+  background: url("../../assets/images/dashedLine.png");
+}
+
+.stepsContentContainer {
+  margin: 30px;
+  margin-top: 40px;
+}
+
+.btnsContainer {
+  display: flex;
+  margin: 30px;
+}

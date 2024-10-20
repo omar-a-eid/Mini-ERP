@@ -4,14 +4,15 @@ import styles from "./styles.module.css";
 interface ButtonProps {
   text: string;
   width?: number;
-  btnType?: string;
+  btnType?: "blue" | "gray";
   addBtn?: boolean;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  onClick?: any;
 }
 
-// height 48
-export default function Button({text, width = 137, btnType ="blue", addBtn = false}: ButtonProps) {
+export default function Button({text, width = 137, btnType ="blue", addBtn = false, onClick}: ButtonProps) {
   return (
-    <div  className={btnType == "blue" ?styles.blueBtn : styles.grayBtn} style={{width: `${width}px`}}>
+    <div  className={btnType == "blue" ?styles.blueBtn : styles.grayBtn} style={{width: `${width}px`}} onClick={onClick}>
         {
         addBtn &&
         <img src={Plus} width={24} height={24} alt="Plus sign" />

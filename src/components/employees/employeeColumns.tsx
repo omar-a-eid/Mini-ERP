@@ -16,7 +16,7 @@ export const employeeColumns = (handleDelete: (id: number) => void) => [
       </td>
     )
   },
-  { header: 'Role', key: 'position' as keyof Employee }, // Updated to position
+  { header: 'Role', key: 'role' as keyof Employee },
   { header: 'E-Mail', key: 'email' as keyof Employee },
   { header: 'Phone', key: 'phone' as keyof Employee },
   { header: 'Start Date', key: 'startDate' as keyof Employee },

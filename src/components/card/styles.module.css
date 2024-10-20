@@ -1,0 +1,29 @@
+.cardContainer {
+  width: 100%;
+  padding: 5px;
+  border: 0.75px solid #F8F9FA;
+}
+
+.titleContainer {
+  background-color: #F8F8F8;
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.cardInfoContainer {
+  display: flex;
+  padding: 7px 10px;
+}
+
+.cardInfoContainer > div:first-of-type {
+  width: 35%;
+}
+
+.rowHeader {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #747474;
+}
